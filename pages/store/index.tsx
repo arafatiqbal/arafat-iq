@@ -5,13 +5,16 @@ import { getAllPosts } from "../../lib/api";
 import Head from "next/head";
 import Post from "../../interfaces/post";
 import Intro from "../../components/intro";
+import Store from "../../components/store";
 
 type Props = {
   allPosts: Post[];
 };
 
 export default function Index({ allPosts }: Props) {
-  const morePosts = allPosts.slice(1);
+  const storePosts = allPosts.filter((post) => {
+    if (post.slug.includes("gumroad")) return post;
+  });
   return (
     <>
       <Layout>
@@ -20,7 +23,7 @@ export default function Index({ allPosts }: Props) {
         </Head>
         <Container>
           <Intro />
-          {morePosts.length > 0 && <MoreStories posts={morePosts} />}
+          {<Store posts={storePosts} />}
         </Container>
       </Layout>
     </>

@@ -5,7 +5,6 @@ import Intro from "../components/intro";
 import Layout from "../components/layout";
 import { getAllPosts } from "../lib/api";
 import Head from "next/head";
-import { CMS_NAME } from "../lib/constants";
 import Post from "../interfaces/post";
 import Store from "../components/store";
 
@@ -15,7 +14,14 @@ type Props = {
 
 export default function Index({ allPosts }: Props) {
   const heroPost = allPosts[0];
-  const morePosts = allPosts.slice(1, 3);
+  const morePostsFiltered = allPosts.filter((posts) => {
+    if (!posts.slug.includes("gumroad")) return posts;
+  });
+  let len = morePostsFiltered.length;
+  const morePosts = allPosts.slice(len - 1, len + 1);
+  const storePosts = allPosts.filter((post) => {
+    if (post.slug.includes("gumroad")) return post;
+  });
   return (
     <>
       <Layout>
@@ -35,6 +41,7 @@ export default function Index({ allPosts }: Props) {
             />
           )}
           {morePosts.length > 0 && <MoreStories posts={morePosts} />}
+          {<Store posts={storePosts} />}
         </Container>
       </Layout>
     </>
