@@ -1,5 +1,6 @@
 import Footer from "./footer";
 import Meta from "./meta";
+import Store from "./store";
 
 type Props = {
   preview?: boolean;
@@ -13,6 +14,7 @@ const Layout = ({ preview, children }: Props) => {
       <div className="min-h-screen">
         <main>{children}</main>
       </div>
+      <Store />
       <Footer />
     </>
   );

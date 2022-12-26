@@ -7,6 +7,7 @@ import { getAllPosts } from "../lib/api";
 import Head from "next/head";
 import { CMS_NAME } from "../lib/constants";
 import Post from "../interfaces/post";
+import Store from "../components/store";
 
 type Props = {
   allPosts: Post[];

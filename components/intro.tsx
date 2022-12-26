@@ -7,13 +7,13 @@ const Intro = () => {
         <Link href="/">arafat.iq</Link>
       </h1>
       <h4 className="text-center md:text-left text-lg mt-5 md:pl-8">
-        <Link href="/" className="hover:underline mr-5">
+        <Link href="/posts/about" className="hover:underline mr-5">
           about{" "}
         </Link>
-        <Link href="/" className="hover:underline mr-5">
+        <Link href="/store" className="hover:underline mr-5">
           store{" "}
         </Link>
-        <Link href="/" className="hover:underline mr-5">
+        <Link href="/contact" className="hover:underline mr-5">
           contact{" "}
         </Link>
       </h4>
