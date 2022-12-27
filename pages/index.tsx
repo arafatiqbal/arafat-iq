@@ -18,7 +18,7 @@ export default function Index({ allPosts }: Props) {
     if (!posts.slug.includes("gumroad")) return posts;
   });
   let len = morePostsFiltered.length;
-  const morePosts = allPosts.slice(len - 1, len + 1);
+  const morePosts = morePostsFiltered.slice(len - 2, len);
   const storePosts = allPosts.filter((post) => {
     if (post.slug.includes("gumroad")) return post;
   });

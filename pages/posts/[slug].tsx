@@ -33,9 +33,7 @@ export default function Post({ post, morePosts, preview }: Props) {
           <>
             <article className="mb-32">
               <Head>
-                <title>
-                  {post.title} | Next.js Blog Example with {CMS_NAME}
-                </title>
+                <title>{post.title}</title>
                 <meta property="og:image" content={post.ogImage.url} />
               </Head>
               <PostHeader
@@ -44,7 +42,7 @@ export default function Post({ post, morePosts, preview }: Props) {
                 date={post.date}
                 author={post.author}
               />
-              <PostBody content={post.content} />
+              <PostBody content={post.content} gumroadLink={post.gumroadLink} />
             </article>
           </>
         )}
@@ -68,14 +66,17 @@ export async function getStaticProps({ params }: Params) {
     "content",
     "ogImage",
     "coverImage",
+    "gumroadLink",
   ]);
   const content = await markdownToHtml(post.content || "");
+  const gumroadLink = post.gumroadLink || "";
 
   return {
     props: {
       post: {
         ...post,
         content,
+        gumroadLink,
       },
     },
   };

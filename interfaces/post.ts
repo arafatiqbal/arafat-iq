@@ -11,6 +11,7 @@ type PostType = {
     url: string;
   };
   content: string;
+  gumroadLink: string;
 };
 
 export default PostType;
