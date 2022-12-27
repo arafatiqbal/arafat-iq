@@ -13,12 +13,11 @@ type Props = {
 };
 
 export default function Index({ allPosts }: Props) {
-  const heroPost = allPosts[0];
+  const heroPost = allPosts[2];
   const morePostsFiltered = allPosts.filter((posts) => {
-    if (!posts.slug.includes("gumroad")) return posts;
+    if (posts.date != "") return posts;
   });
-  let len = morePostsFiltered.length;
-  const morePosts = morePostsFiltered.slice(len - 2, len);
+  const morePosts = morePostsFiltered.slice(morePostsFiltered.length - 2);
   const storePosts = allPosts.filter((post) => {
     if (post.slug.includes("gumroad")) return post;
   });

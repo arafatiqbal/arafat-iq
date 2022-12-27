@@ -2,7 +2,7 @@
 title: "I’m Arafat — a software engineer based in Portland."
 excerpt: "I'm currently a software engineer, and have a passion for design. I am currently learning new technologies, and sharing my thoughts, and information I find useful."
 coverImage: "/assets/blog/dynamic-routing/cover.jpg"
-date: "2020-03-16T05:35:07.322Z"
+date: ""
 author:
   name:
   picture:
@@ -10,10 +10,14 @@ ogImage:
   url: "/assets/blog/dynamic-routing/cover.jpg"
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Praesent elementum facilisis leo vel fringilla est ullamcorper eget. At imperdiet dui accumsan sit amet nulla facilities morbi tempus. Praesent elementum facilisis leo vel fringilla. Congue mauris rhoncus aenean vel. Egestas sed tempus urna et pharetra pharetra massa massa ultricies.
+Hello! My name is Arafat and I am a software engineer with a passion for design. I recently graduated with a degree in computer science and am excited to continue learning and growing in my field.
 
-Venenatis cras sed felis eget velit. Consectetur libero id faucibus nisl tincidunt. Gravida in fermentum et sollicitudin ac orci phasellus egestas tellus. Volutpat consequat mauris nunc congue nisi vitae. Id aliquet risus feugiat in ante metus dictum at tempor. Sed blandit libero volutpat sed cras. Sed odio morbi quis commodo odio aenean sed adipiscing. Velit euismod in pellentesque massa placerat. Mi bibendum neque egestas congue quisque egestas diam in arcu. Nisi lacus sed viverra tellus in. Nibh cras pulvinar mattis nunc sed. Luctus accumsan tortor posuere ac ut consequat semper viverra. Fringilla ut morbi tincidunt augue interdum velit euismod.
+I have always been drawn to the world of technology and the endless possibilities it offers. As a software engineer, I am constantly challenged to think critically and find creative solutions to complex problems. I love the feeling of seeing a project come to life, and the satisfaction of knowing that I played a part in its development.
 
-## Lorem Ipsum
+In addition to my love for software engineering, I also have a strong interest in design. I believe that good design is essential to creating user-friendly and intuitive software, and I strive to bring that level of care and attention to detail to everything I work on.
 
-Tristique senectus et netus et malesuada fames ac turpis. Ridiculous mus mauris vitae ultricies leo integer malesuada nunc vel. In mollis nunc sed id semper. Egestas tellus rutrum tellus pellentesque. Phasellus vestibulum lorem sed risus ultricies tristique nulla. Quis blandit turpis cursus in hac habitasse platea dictumst quisque. Eros donec ac odio tempor orci dapibus ultrices. Aliquam sem et tortor consequat id porta nibh. Adipiscing elit duis tristique sollicitudin nibh sit amet commodo nulla. Diam vulputate ut pharetra sit amet. Ut tellus elementum sagittis vitae et leo. Arcu non odio euismod lacinia at quis risus sed vulputate.
+Outside of my professional pursuits, I enjoy exploring my creative side through hobbies like film photography and content creation. I find that these activities allow me to step back from the rigors of software development and relax while still exercising my problem-solving skills and artistic eye.
+
+I am always looking for new ways to challenge myself and improve my skills as a software engineer. Whether it's taking on a new project at work or learning a new programming language in my free time, I am committed to constantly growing and evolving in my field.
+
+As I embark on my career as a software engineer, I am excited to see what the future holds and where my passion for technology and design will take me. I am confident that with hard work and dedication, I will continue to grow and succeed in this exciting and ever-changing industry.
