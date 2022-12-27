@@ -6,8 +6,6 @@ type Props = {
 };
 
 const PostBody = ({ content, gumroadLink }: Props) => {
-  const link = gumroadLink;
-  debugger;
   return (
     <div className="max-w-2xl mx-auto">
       <div
@@ -15,8 +13,8 @@ const PostBody = ({ content, gumroadLink }: Props) => {
         dangerouslySetInnerHTML={{ __html: content }}
       />
       <script src="https://gumroad.com/js/gumroad.js"></script>
-      {link ? (
-        <a className="gumroad-button" href={link}>
+      {gumroadLink ? (
+        <a className="gumroad-button" href={gumroadLink}>
           Buy on
         </a>
       ) : (

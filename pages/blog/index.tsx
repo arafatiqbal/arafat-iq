@@ -11,7 +11,9 @@ type Props = {
 };
 
 export default function Index({ allPosts }: Props) {
-  const morePosts = allPosts.slice(1);
+  const morePosts = allPosts.filter((posts) => {
+    if (posts.date != "") return posts;
+  });
   return (
     <>
       <Layout>

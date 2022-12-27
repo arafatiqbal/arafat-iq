@@ -1,19 +1,54 @@
 ---
-title: 'Preview Mode for Static Generation'
-excerpt: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Praesent elementum facilisis leo vel fringilla est ullamcorper eget. At imperdiet dui accumsan sit amet nulla facilities morbi tempus.'
-coverImage: '/assets/blog/preview/cover.jpg'
-date: '2020-03-16T05:35:07.322Z'
+title: "Top 5 Must Have Mac Apps"
+excerpt: "Here are some of my favorite apps on the Mac that make my life as a developer easier."
+coverImage: "/assets/blog/preview/cover.jpg"
+date: "2022-11-16"
 author:
-  name: Joe Haddad
-  picture: '/assets/blog/authors/joe.jpeg'
+  name: Arafat Iqbal
+  picture: "/assets/blog/authors/joe.jpeg"
 ogImage:
-  url: '/assets/blog/preview/cover.jpg'
+  url: "/assets/blog/preview/cover.jpg"
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Praesent elementum facilisis leo vel fringilla est ullamcorper eget. At imperdiet dui accumsan sit amet nulla facilities morbi tempus. Praesent elementum facilisis leo vel fringilla. Congue mauris rhoncus aenean vel. Egestas sed tempus urna et pharetra pharetra massa massa ultricies.
+Here are some of my favorite apps on the Mac that make my life as a developer easier.
 
-Venenatis cras sed felis eget velit. Consectetur libero id faucibus nisl tincidunt. Gravida in fermentum et sollicitudin ac orci phasellus egestas tellus. Volutpat consequat mauris nunc congue nisi vitae. Id aliquet risus feugiat in ante metus dictum at tempor. Sed blandit libero volutpat sed cras. Sed odio morbi quis commodo odio aenean sed adipiscing. Velit euismod in pellentesque massa placerat. Mi bibendum neque egestas congue quisque egestas diam in arcu. Nisi lacus sed viverra tellus in. Nibh cras pulvinar mattis nunc sed. Luctus accumsan tortor posuere ac ut consequat semper viverra. Fringilla ut morbi tincidunt augue interdum velit euismod.
+Let's get started
 
-## Lorem Ipsum
+## **1. Rectangle**
 
-Tristique senectus et netus et malesuada fames ac turpis. Ridiculous mus mauris vitae ultricies leo integer malesuada nunc vel. In mollis nunc sed id semper. Egestas tellus rutrum tellus pellentesque. Phasellus vestibulum lorem sed risus ultricies tristique nulla. Quis blandit turpis cursus in hac habitasse platea dictumst quisque. Eros donec ac odio tempor orci dapibus ultrices. Aliquam sem et tortor consequat id porta nibh. Adipiscing elit duis tristique sollicitudin nibh sit amet commodo nulla. Diam vulputate ut pharetra sit amet. Ut tellus elementum sagittis vitae et leo. Arcu non odio euismod lacinia at quis risus sed vulputate.
+![Picture of Rectangle](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/y0ndljwnzvtyhjm89lzl.png)
+
+Mac window management is trash. This helps you organize your windows on your desktop. There are paid versions of this exact app like magnet, but why would you want to pay...
+
+[Install Rectangle](https://rectangleapp.com/)
+
+## **2. Gifox**
+
+![Picture of Gifox](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/ps4oqbuh6k7anzhubpa4.png)
+
+Do you ever need to show something to someone, but screen recording is too much and a screenshot wouldn't show everything? Why not send a gif instead!
+
+[Install Gifox](https://gifox.app/)
+
+## **3. Notion**
+
+![Picture of Notion](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/9sgw5w8dtd7aiu1fmytv.png)
+
+Notion has to be one of the best note apps. There are things I don't like about it, but for the most part, it does what you tell it to, and your notes stay oragnized.
+
+[Install Notion](https://www.notion.so/)
+
+## **4. iTerm2**
+
+![Picture of iTerm2](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/jnanxske07l212ozxvqu.png)
+
+The default terminal for mac is okay. It will get the job done. iTerm2 gives you a few more customizations + features.
+
+[Install iTerm2](https://iterm2.com/)
+
+## **5. Boop**
+
+![Picture of Boop](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/oersa8c564g0n9mxsur6.png)
+
+If you work with a lot of text often, Boop will help you modify it based on pre-existing scripts. For example, you have a super messy unformated json file. Paste it into boop, and run the format json script! Done!
+[Install Boop](https://apps.apple.com/us/app/boop/id1518425043?mt=12)
